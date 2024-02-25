@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jo-Ken-Po</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main"> 
+        <div id="pedra" onclick="jogar(1)">Pedra</div>
+        <div id="papel" onclick="jogar(2)">Papel</div>
+        <div id="tesoura" onclick="jogar(3)">Tesoura</div>
+        <hr/>
+        
+    </div>
+    <div class="main" id="m2">
+        <h2>Vitorias:</h2>
+        <input type="text" id="points" style="text-align: center;" readonly>
+        <h2>Derrotas:</h2>
+        <input type="text" id="defeats" style="text-align: center;" readonly>
+        <h2>Empates:</h2>
+        <input type="text" id="draws" style="text-align: center;" readonly>
+    </div>
+
+</body>
+</html>
